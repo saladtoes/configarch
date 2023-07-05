@@ -1,0 +1,27 @@
+00:00:00.236007 VirtualBox GUI VM Selector Window 7.0.8 r156879 linux.amd64 (Apr 18 2023 21:49:14) release log
+00:00:00.236009 Log opened 2023-07-05T06:23:26.267481000Z
+00:00:00.236010 Build Type: release
+00:00:00.236011 OS Product: Linux
+00:00:00.236011 OS Release: 6.4.1-arch2-1
+00:00:00.236011 OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 04 Jul 2023 08:39:40 +0000
+00:00:00.236025 DMI Product Name: MS-7D20
+00:00:00.236029 DMI Product Version: 1.0
+00:00:00.236031 Firmware type: UEFI
+00:00:00.236187 Secure Boot: Disabled
+00:00:00.236209 Host RAM: 15892MB (15.5GB) total, 9632MB (9.4GB) available
+00:00:00.236211 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.236211 Process ID: 49924
+00:00:00.236211 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.236229 Qt version: 5.15.10
+00:00:00.236519 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.238811 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.238821 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.637608 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2975x20 x 862x527
+00:00:00.637800 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 2975x549 x 862x528
+00:00:56.062561 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:56.089496 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:10.642364 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:34.500280 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:35.913464 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:02:04.662421 GUI: UICommon: Handling aboutToQuit request..
+00:02:05.187585 GUI: UICommon: aboutToQuit request handled!

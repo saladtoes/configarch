@@ -1,0 +1,18 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+2 screens: Height=1057
+2 screens: Width=1054
+2 screens: XPosition=1921
+2 screens: YPosition=22
+DisplayPort-1 HDMI-A-0=DisplayPort-1
+State=AAAA/wAAAAD9AAAAAAAABB4AAAP8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+splitterSizes=700,350

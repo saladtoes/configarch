@@ -1,0 +1,140 @@
+00:00:00.000087 main     VirtualBox XPCOM Server 7.0.8 r156879 linux.amd64 (Apr 18 2023 21:49:14) release log
+00:00:00.000088 main     Log opened 2023-07-05T06:23:26.128494000Z
+00:00:00.000089 main     Build Type: release
+00:00:00.000090 main     OS Product: Linux
+00:00:00.000090 main     OS Release: 6.4.1-arch2-1
+00:00:00.000091 main     OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 04 Jul 2023 08:39:40 +0000
+00:00:00.000102 main     DMI Product Name: MS-7D20
+00:00:00.000116 main     DMI Product Version: 1.0
+00:00:00.000118 main     Firmware type: UEFI
+00:00:00.000397 main     Secure Boot: Disabled
+00:00:00.000419 main     Host RAM: 15892MB (15.5GB) total, 9636MB (9.4GB) available
+00:00:00.000420 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000421 main     Process ID: 49951
+00:00:00.000421 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001354 main     IPC socket path: /tmp/.vbox-joel-ipc/ipcd
+00:00:00.105232 nspr-2   VirtualBox: object creation starts
+00:00:00.105395 nspr-2   Home directory: '/home/joel/.config/VirtualBox'
+00:00:00.107710 nspr-2   HostDnsMonitor: initializing
+00:00:00.108148 nspr-2   NAT: resolv.conf: nameserver 192.168.42.129
+00:00:00.108191 nspr-2   HostDnsMonitor: updating information
+00:00:00.108224 nspr-2   HostDnsMonitor: old information
+00:00:00.108230 nspr-2     no server entries
+00:00:00.108236 nspr-2     no domain set
+00:00:00.108241 nspr-2     no search string entries
+00:00:00.108247 nspr-2   HostDnsMonitor: new information
+00:00:00.108252 nspr-2     server 1: 192.168.42.129
+00:00:00.108259 nspr-2     no domain set
+00:00:00.108263 nspr-2     no search string entries
+00:00:00.113849 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.114235 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.114467 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.116376 nspr-2   VirtualBox: object created
+00:00:00.472786 nspr-4   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.474378 nspr-4   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:00.504697 nspr-2   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.506144 nspr-2   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:00.554803 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.896758 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.899482 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:10.597348 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.599770 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:17.689912 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:17.692524 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:21.425634 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:30.975526 nspr-3   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:00:31.012334 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.014758 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:31.015627 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.017616 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:55.939814 createBase Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:55.941420 createBase Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:55.946323 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:55.946931 nspr-3   Saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox" with version "1.19-linux"
+00:00:55.950789 nspr-3   Finished saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox"
+00:00:55.950848 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:55.952327 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:55.953385 nspr-5   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:55.954898 nspr-5   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:55.955506 nspr-2   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:55.956941 nspr-2   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:55.957181 nspr-2   Saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox" with version "1.19-linux"
+00:00:55.959451 nspr-2   Finished saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox"
+00:00:55.969755 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:55.972311 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:00:56.307860 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:56.323962 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:56.324539 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:56.413275 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:00:56.413813 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:03.456566 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:03.859851 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:03.859924 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:03.859982 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:03.860917 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:01:03.870842 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:03.871057 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:03.968249 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:03.968775 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:03.975154 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:03.975618 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:04.226105 nspr-5   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:04.227840 nspr-5   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:01:10.518282 nspr-4   Saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox" with version "1.19-linux"
+00:01:10.521098 nspr-4   Finished saving settings file "/home/joel/VirtualBoxVMs/openbsd/openbsd.vbox"
+00:01:10.558876 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:10.559432 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:10.565363 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:10.565990 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:10.828016 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:10.830780 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:01:15.166504 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:15.564971 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:15.565061 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:15.565131 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:15.566053 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:01:15.576918 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:15.577121 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:15.668408 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:15.668988 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:15.675268 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:15.675860 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:15.926048 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:15.928381 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:01:32.596746 nspr-3   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:32.598547 nspr-3   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:01:33.899716 nspr-4   Launched VM: 2147522640 pid: 50251 (0xc44b) frontend: GUI/Qt name: openbsd
+00:01:33.917180 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:33.917740 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:33.933301 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:33.933871 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:34.399873 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The virtual machine 'openbsd' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:01:34.420571 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:34.421268 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:34.434841 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:34.435334 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:35.312472 nspr-5   Launched VM: 2013269968 pid: 50257 (0xc451) frontend: GUI/Qt name: openbsd
+00:01:35.330275 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:35.330770 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:35.344406 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:35.344928 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:35.812639 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The virtual machine 'openbsd' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:01:35.833545 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:35.834068 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:35.849256 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:01:35.849773 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:03.553900 nspr-5   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:03.556821 nspr-5   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:02:03.556881 nspr-5   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:03.558614 nspr-5   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:02:03.561622 DeleteVM Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:03.564467 DeleteVM Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:02:03.566634 nspr-2   Saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:03.568932 nspr-2   Finished saving settings file "/home/joel/.config/VirtualBox/VirtualBox.xml"
+00:02:03.586799 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ce40114f-fcec-412f-af9d-b0fc7067665d}}, preserve=false aResultDetail=0
+00:02:03.593617 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ce40114f-fcec-412f-af9d-b0fc7067665d}}, preserve=false aResultDetail=0
+00:02:10.076827 main     VirtualBox: object deletion starts
+00:02:10.077064 main     HostDnsMonitor: shutting down ...
+00:02:10.090164 main     HostDnsMonitor: shut down
+00:02:10.100529 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:02:10.100585 main     VirtualBox: object deleted

@@ -1,0 +1,25 @@
+[ActivityManager]
+_k_friendly_name=Activity Manager
+switch-to-activity-1eb1f965-da37-4a61-9792-7e4febd89c57=none,none,Switch to activity "Default"
+
+[KDE Keyboard Layout Switcher]
+Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
+_k_friendly_name=Keyboard Layout Switcher
+
+[org.kde.krunner.desktop]
+RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+
+[org.kde.plasma.emojier.desktop]
+_k_friendly_name=Emoji Selector
+_launch=Meta+.\tMeta+Ctrl+Alt+Shift+Space,Meta+.\tMeta+Ctrl+Alt+Shift+Space,Emoji Selector
+
+[systemsettings.desktop]
+_k_friendly_name=System Settings
+_launch=Tools,Tools,System Settings
+kcm-kscreen=none,none,Display Configuration
+kcm-lookandfeel=none,none,Global Theme
+kcm-users=none,none,Users
+powerdevilprofilesconfig=none,none,Energy Saving
+screenlocker=none,none,Screen Locking
